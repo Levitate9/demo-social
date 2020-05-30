@@ -1,0 +1,11 @@
+
+div.message > img.userPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.messageItem {
+  display: inline-block;
+}

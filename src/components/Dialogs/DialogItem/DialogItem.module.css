@@ -1,0 +1,16 @@
+
+div.dialog {
+  display: inline;
+}
+
+img.userPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.dialog a {
+  display: inline;
+  padding-left: 10px;
+}

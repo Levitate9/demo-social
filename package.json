@@ -1,0 +1,45 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://levitate9.github.io/demo-social/",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "eslint-config-react-app": "^5.0.2",
+    "gh-pages": "^3.0.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
